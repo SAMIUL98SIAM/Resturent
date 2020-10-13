@@ -1,0 +1,422 @@
+*{  
+	padding: 0;
+    margin: 0;
+}
+.main_wrap
+{
+	width: 100%;
+}
+.wrap
+{
+		width: 960px;
+	margin: 0px auto;
+
+}
+.header_bg
+{
+   border-top:5px solid #6B710E;
+	background-color: #F6B319; 
+
+  border-bottom: 5px solid #6B710E;
+}
+#header
+{
+	     border-right: 2px solid #fff;
+	  border-left: 2px solid #fff;
+	background-color: #F6B319;
+	padding: 15px;
+
+}
+#header h2
+{
+	color: #557531;
+}
+#header img
+{
+	/*margin-right: 10px;*/
+}
+#header span
+{
+    margin-left:20px; 
+    color:#611D14;
+	font-family:georgia;	
+}
+
+#nav
+{
+	 background-color: #F6B319 ;
+      min-height: 38px;
+      border-right: 2px solid #CDD0D1;
+	  border-left: 2px solid #CDD0D1;
+	 
+}
+.nav_bg
+{
+	background: #61122F ;
+	 border-bottom: 5px solid #6B710E;
+}
+#nav ul
+{
+      z-index: 10;
+	background-color: #F6B319 ;
+    list-style-type: none ;
+	
+}
+#nav ul li 
+{
+  
+  float:left;
+  border-right: 1px solid #951C49 ;
+  position:relative;
+
+}
+#nav ul li:last-child 
+{
+   border-right:none;
+}
+#nav ul li a
+{
+	transition:0.5s all ease;
+	text-decoration:none;
+	padding:10px 20px;
+	display:block;
+	font-weight:bold;
+	color:#951C49;
+	
+}
+#nav ul li a:hover
+{
+	background:#fff;
+}
+#nav ul li ul
+{
+
+	
+	position: absolute;
+     left:-99999px;
+	background-color:  #F6B319 ;
+}
+#nav ul li:hover ul
+{
+	left:0;
+}
+#nav ul li ul li{
+	position: relative;
+   width:200px;
+    border-right: none;
+	  border-left: none;
+    border-top: 1px solid #951C49;
+	  border-bottom: 1px solid #951C49;
+}
+#nav ul li ul li ul
+{
+	border-left: 1px solid #951C49;
+   position: absolute;
+   top: -99999px;
+}
+#nav ul li ul li:hover ul
+{
+   top: 0;
+   left: 200px;
+}
+
+.slider_bg
+{
+	background-color: #222222;
+	 
+}
+#slider 
+{ 
+
+
+}
+
+.slider_bg
+{
+	background:#222222; 
+}
+.slider_Fun_bg
+{
+
+		background: #222222;
+
+}
+.slider_Fun_wrap
+{
+
+	  border-right: 2px solid #CDD0D1;
+	  border-left: 2px solid #CDD0D1;
+}
+.preview{
+
+	border: 1px solid red;
+		width:10%;
+		margin-left:17%;
+    border: 10px solid black;
+    
+}
+.preview img{
+
+		width:95%;
+
+}
+#slider_wrapper
+{
+  border-right: 2px solid #CDD0D1;
+	  border-left: 2px solid #CDD0D1;
+  
+}
+/*.content_bg
+{
+	
+}*/
+#image{
+    line-height:650px;
+		width: 575px;
+    height: 650px;
+		border:5px solid black;
+		margin:0 auto;
+    background-color: #8e68ff;
+    background-image: url('');
+    background-repeat: no-repeat;
+    color:#FFFFFF;
+    text-align: center;
+    background-size: 100%;
+    margin-bottom:25px;
+    font-size: 150%;
+}
+#content_wrapper
+{
+	padding: 10px;
+	background:#61122F;
+	overflow: hidden;
+
+	/*overflow: hidden;*/
+}
+div#content_wrapper
+{
+	border-right: 2px solid #CDD0D1;
+	  border-left: 2px solid #CDD0D1;
+
+	padding: 10px;
+	background-color: #61122F;
+	overflow: hidden;
+
+}
+.content_bg
+{
+	background: #61122F;
+
+}
+div#content_wrapper #content
+{
+	width: 600px;
+	margin-right: 20px;
+	float: left;
+	margin-bottom: 5px;
+}
+div#content_wrapper #content p
+{
+	margin: 20px 0;
+	color: #fff;
+
+}
+div#content_wrapper #content h1
+{
+	color: #fff;
+	margin-bottom: 5px;
+	font-family: arial;
+	font-size: 23px;
+	text-shadow: 0px 0px 10px rgba(255,255,255,0.6), 0px 0px 30px rgba(255,255,255,0.4), 0px 0px 50px rgba(255,255,255,0.3), 0px 0px 180px rgba(255,255,255,0.3);
+}
+div#content_wrapper #content h1 a
+{
+	text-decoration: none;	
+}
+div#content_wrapper #content img
+{
+
+   height: 350px;
+   width: 450px;
+   
+   
+}
+div#content_wrapper #content figure
+{
+   height: 370px;
+   width: 450px;
+   background-color: #ddd;
+   padding: 15px ;
+	margin: 0 auto ;
+   display: block;
+}
+div#content_wrapper #content figure figcaption
+{
+	text-align: center;
+	color: red;
+	font-family:fantasy;
+}
+.article .Menu_paragraph {
+	
+}
+div#content_wrapper #content h3
+{margin-top: 20px ;
+margin-bottom: 10px;
+font-family: arial;
+font-size: 25px;
+color: #FFFFFF;
+text-decoration: underline;
+text-align: center;
+text-shadow: 2px 2px 2px blue ;
+}
+div#content_wrapper #content blockquote 
+{
+	margin-top: 10px;
+	margin-bottom:10px;
+	margin-left: 50px;
+	padding: 10px;
+	background: #ddd;
+	padding-left: 20px;
+	border-left: 4px solid orange;
+
+}
+
+div#content_wrapper #content blockquote  p
+{color:#F92453;width: 100%;}
+/*div#content_wrapper #content img:hover
+{
+     transform: scale(1.1);
+}*/
+div#content_wrapper #sidebar
+{
+
+	float: left;
+	width: 298px;
+}
+div#content_wrapper #sidebar ul
+{
+	list-style-type: circle;
+}
+div#content_wrapper #sidebar ul li a
+{
+	
+	text-decoration:none;
+	padding: 4px;
+    display: block; 
+	color: #fff;
+}
+
+div#content_wrapper #sidebar ul li a:hover
+{
+	color: #000;
+}
+div#content_wrapper #sidebar h2
+{
+	color: #fff;
+}
+footer div#footer
+{
+	background-color:#625546;
+	padding: 10px;
+	color: #D7C8BE;
+	text-align: center;
+}
+div#content_wrapper #content div#imgp_wrapper 
+{
+   margin-top: 10px;
+} 
+div#content_wrapper #content div#imgp_wrapper img
+{
+	width: 110px;
+	height:140px;
+	float: left;
+	background:#fff;
+    margin-right: 15px;
+    padding: 3px;
+    border:1px solid #ddd;
+}
+div#content_wrapper #content div#imgp_wrapper p
+{
+	float: left;
+	width: 450px;
+	margin-top: 0;
+} 
+#main_article_single
+{
+	margin-bottom: 25px;
+	border-bottom: 2px solid #635548 ;
+	overflow: hidden;
+}
+#main_sidebar
+{
+	margin-bottom: 20px;
+	border-bottom: 3px solid #6B710E ;
+	overflow: hidden;
+
+}
+#main_sidebar ul li 
+{
+	border-bottom: 1px solid red ;
+	margin-bottom: 5px ;
+
+	padding-left: 10px;
+}
+#main_sidebar ul li:last-child
+{
+	border-bottom: none;
+}
+}
+#main_sidebar h2
+{
+	margin-bottom: 10px;
+}
+#footer h2
+{
+	margin-bottom: 16px;
+}
+.footer_bg
+{
+	width:100%;
+}
+
+
+#footer
+{
+	overflow: hidden;
+
+	color: #FFFFFF;
+	background-color: rgb(34,34,34);
+	/*height: 200px;
+	
+	border-right: 2px solid #CDD0D1;
+	border-left: 2px solid #CDD0D1;*/
+}
+#footer_col 
+{
+	width: 280px;
+	padding: 5px;
+	float: left;
+
+}
+
+#footer_col1
+{
+
+	padding: 5px;
+
+	margin-left: 20px;
+	float: left;
+}
+#footer_col2
+{
+   margin-left: 30px;
+}
+#footer_col2 p{ 
+	    float: right;
+    margin-right: 80px;
+    width: 160px;
+	}
+#footer_col2 span#span
+{
+	margin-top: 60px;
+} 
